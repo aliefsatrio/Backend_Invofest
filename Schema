@@ -1,0 +1,22 @@
+Schema 
+ -> blueprint dari tabel aplikasi yang akan kita buat 
+ a. Categories
+    - id Int PrimaryKey AutoIncrement
+    - name String
+    - createdAt DateTime
+ b. Events
+    - id Int PrimaryKey AutoIncrement
+    - name String
+    - categoryId Int
+    - dateEvent DateTime
+    - location String
+    - description String 
+    - createdAt DateTime
+ c. Pembicara
+    - id Int PrimaryKey AutoIncrement
+    - name String
+    - role String
+    - image String
+    - createdAt DateTime
+2. Migration
+    -> 

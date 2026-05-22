@@ -1,6 +1,6 @@
 import express from "express";
 
-import { getPembicaras, createPembicara, getPembicara, updatePembicara, deletePembicara } from "../controllers/pembicaraControllers";
+import { getPembicaras, createPembicara, getPembicara, updatePembicara, deletePembicara } from "../controllers/pembicaraControllers.js";
 
 const router = express.Router();
 
